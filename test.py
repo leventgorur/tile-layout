@@ -2,20 +2,14 @@ import random
 import sys
 from PyQt5 import QtWidgets, QtGui, QtCore
 from PyQt5.QtGui import QPalette, QFont
-
 from QTileLayout import QTileLayout
 
 
 possible_text = [
-    'Hello',
-    'Salut',
-    'Hallo',
-    'Hola',
-    'Ciao',
-    'Ola',
-    'Hej',
-    'Saluton',
-    'Szia',
+    '24x16',
+    '16x16',
+    '16x8',
+    '8X8',
 ]
 
 possible_colors = [
@@ -27,6 +21,28 @@ possible_colors = [
     (153, 102, 51),  # brown
     (255, 51, 51),   # red
 ]
+
+# possible_text = [
+#     'Hello',
+#     'Salut',
+#     'Hallo',
+#     'Hola',
+#     'Ciao',
+#     'Ola',
+#     'Hej',
+#     'Saluton',
+#     'Szia',
+# ]
+
+# possible_colors = [
+#     (255, 153, 51),  # orange
+#     (153, 0, 153),   # purple
+#     (204, 204, 0),   # yellow
+#     (51, 102, 204),  # blue
+#     (0, 204, 102),   # green
+#     (153, 102, 51),  # brown
+#     (255, 51, 51),   # red
+# ]
 
 
 class Label(QtWidgets.QLabel):
